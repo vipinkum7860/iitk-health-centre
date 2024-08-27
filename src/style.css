@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: cadetblue;
+  margin: auto -16px;
+  padding: 16px 32px;
+  color: #eee;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 16px;
+}
+header p {
+  font-size: 10px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  /* display: flex;
+  justify-content: center; */
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+form.create-note {
+  position: relative;
+  width: 650px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: darkcyan;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.heading {
+  padding: 16px 32px;
+  font-weight: 400;
+}
+
+.heading h2 {
+  font-size: 15px;
+}
+
+.flex-container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container h3 {
+  font-size: 30px;
+}
+
+.flex-container p {
+  color: gray;
+}
+.flex-container .welcome {
+  margin-top: 100px;
+}
+.flex-container .gif {
+  margin-right: 100px;
+}
+.flex-container .signform {
+  margin-top: 30px;
+}
+.signform a {
+  text-decoration: none;
+}
+
+.contact {
+  width: 600px;
+  margin: 20px auto 0;
+}
+.contact-card {
+  padding: 50px 20px;
+}
+
+.contact-card h5 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.contact-card span {
+  font-weight: 300;
+}
+
+.profile {
+  width: 1000px;
+  margin: 20px auto 0;
+  padding: 20px 20px;
+}
+
+.profile h1 {
+  padding: 0 104px;
+  font-size: 25px;
+  color: darkslategray;
+}
+
+.profile-paper {
+  padding: 20px;
+}
+.customClass
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: cadetblue;
+}
+
+.customClass .MuiInput-underline::after {
+  border-color: cadetblue;
+}
+.customClass .MuiInputLabel-root.Mui-focused {
+  color: cadetblue;
+}
+.customClass #outlined-weight-helper-text {
+  color: red;
+}
+
+.signup-tabs {
+  margin-top: 20px;
+}
+
+.signupform {
+  margin: 20px 0;
+}
+
+.data {
+  height: 380px;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.MuiTabs-root .MuiTabs-flexContainer .MuiTab-labelIcon.Mui-selected {
+  color: cadetblue;
+}
+.MuiTabs-root .MuiTabs-flexContainer .MuiButtonBase-root.Mui-selected {
+  color: cadetblue;
+}
+
+.MuiTabs-root .MuiTabs-indicator {
+  background-color: cadetblue;
+}
+
+.search input {
+  width: 75%;
+}
+
+.search .css-1vbc0rj-MuiInputBase-input-MuiFilledInput-input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search .css-9mc7sf-MuiInputAdornment-root {
+  margin-top: 0;
+}
+
+input.text {
+  border: none;
+  background: "red";
+  outline: none;
+  width: 100%;
+  height: 60%;
+}
+
+.MuiStack-root {
+  margin-top: 0px;
+}
+
+.heading a {
+  text-decoration: none;
+  color: black;
+}
+
+.simplebar-wrapper {
+  height: 360px;
+}
